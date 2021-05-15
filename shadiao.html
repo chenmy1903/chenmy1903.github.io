@@ -1,0 +1,20 @@
+<script>
+    function shadiao()
+    {
+        var shadiao_v = document.getElementById("shadiao").value;
+        if ("我是沙雕" == shadiao_v)
+        {
+            alert("你终于承认了！");
+            window.open('/')
+        }
+        else
+        {
+            alert("再给你一次机会！");
+        }
+    }
+</script>
+<title>承认沙雕</title>
+<a href='/'>返回主页面</a><br><br>
+<label>你是沙雕吗？(完整话回答)  </label><input type="text" id="shadiao">
+<br>
+<button onclick="shadiao()">提交</button>
